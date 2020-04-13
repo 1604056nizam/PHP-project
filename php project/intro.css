@@ -1,0 +1,145 @@
+*{margin: 0;padding: 0;outline: 0}
+body{font-family: arial,font-size:20px;line-height: 18px;color: #000;}
+
+.templete{width: 960px;background: #FF0000;margin:auto;}
+.clear{overflow: hidden;}
+.header{background: black;margin-bottom: 10px;}
+.Logo{float: left;}
+.Logo img{
+    height: 283px;
+    width: 379px;
+}
+.Logo h2{color: white; margin-left: 10px;}
+.Logo p{color: white;margin-top: 10px;margin-left: 10px;margin-bottom: 10px;}
+.social{float: right;}
+.social img{
+    height: 130px;
+    padding-right: 45px;
+    padding-top: 79px;
+}
+@keyframes slider{
+ 
+0%{
+    left: 0;
+} 
+20%{
+    left: 0;
+}
+25%{
+    left: -100%;
+}
+45%{
+    left: -100%;
+}
+50%{
+    left: -200%;
+}
+70%{
+    left: -200%;
+}
+75%{
+    left: -300%;
+}
+95%{
+    left: -300%
+}
+100%{
+    left: -400%;
+}
+
+}
+
+.slider {margin-bottom: 10px;}
+.slider figure img{
+    width: 20%;
+    float: left;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+
+
+
+
+
+
+
+.navsection{height: 26px;background:aquamarine;}
+.navsection ul{margin: 0;padding: 0;list-style: none;}
+.navsection ul li{display: block;float: left;}
+.navsection ul li a{
+    background: burlywood;
+    color: currentColor;
+    border: 1px solid cyan;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 5px 35px;
+    font-size: 23px;
+}
+.navsection ul li a:hover {background: #2F2D2E; color: #FFF;}
+
+.contentsection{background: #ffffff;}
+.mainconten{width: 545px;background: #dfdfdf;float: left;/* height: 88px; */padding: 10px;margin: 10px;margin-left: 0;}
+.mainconten p{}
+.aboutus{text-align: justify;}
+.aboutus img{float: left;
+    background: white;
+    padding: 10px;
+    border: 5px yellow solid;
+    margin-right: 10px;
+    
+}
+.aboutus p{}
+.samepost{}
+.samepost h2,.aboutus h2{
+    background:  violet;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 10px;
+}
+
+.samepost img{
+    float: left;
+    width: 180px;
+    margin-right: 10px;
+    background: white;
+    padding: 5px;
+    border: 1px solid yellow;
+}
+
+.samepost p{
+    text-align: justify;
+    line-height: 27px;
+}
+.readmore {float: right;margin-bottom: 5px;}
+.readmore a{
+    background: violet;
+    padding: 5px;
+    border: 4px solid cadetblue;
+
+}
+.readmore a:hover{color: green;}
+.sidebar{width: 355px;background: cadetblue;padding:line-height:20px; 10px;float: right;margin: 10px;margin-right: 0;}
+.samesidebar h2{font-size: 20px;padding-left: 10px;line-height: 30px;background: darkorange}
+.samesidebar ul{padding: 0;margin: 0;list-style:none;}
+.samesidebar ul li{margin-left: 10px;}
+.samesidebar ul li a{color: aliceblue;text-decoration: none;/* padding: 5px 5px; */border-bottom: 1px solid floralwhite;}
+.same
+.Fottersection{
+    background: darkviolet;
+    height: 98px;
+    text-align: center;
+}
+.Footermenu {
+    padding-top: 24px;
+    margin-bottom: 7px;
+}
+.Footermenu ul {padding: 0;margin: 0;list-style: none;}
+.Footermenu ul li{display: inline-block;}
+.Footernenu ul li a{}
+
